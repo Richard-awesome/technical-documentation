@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  scroll-behavior: smooth;
+  font-family: Helvetica;
+  overflow: hidden;
+}
+
+body{
+  background-color:  rgb(230, 230, 230);
+  transition: all ease-in-out 1s;
+}
+
+.Crop{
+  transition: all ease-in-out 0.5s;
+  color: #ce6b8c;
+}
+
+#main-doc{
+  margin-top: 50px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section{
+  padding: 30px;
+  margin: 30px;
+  max-width: 700px;
+  text-align: center;
+}
+
+
+
+.main-section header{
+  font-size: 50px;
+  text-align: center;
+}
+
+@media(max-width:1000px){
+  body{
+  background-color: white;
+
+}
+
+.Crop{
+  color: #000;
+}
+
+
+}
+
+#navbar{
+  position: fixed;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E352F;
+  width: 20%;
+  height: 100%;
+  
+  box-shadow: 0 0 5px;
+  flex-wrap: wrap;
+  transition: all ease-in-out 0.5s;
+  
+}
+
+h3{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#navbar header{
+  font-family: "Qwitcher Grypen";
+  font-size: 70px; 
+  font-weight: bolder;
+}
+
+.title{
+  color: transparent;
+}
+
+.links{
+
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+ font-size: 20px;
+}
+
+.links a{
+  font-family: "Saira Condensed";
+  text-decoration: none;
+  transition: all ease-in-out 0.35s;
+}
+
+
+.links a:hover{
+  background-color: #487c6eb0;
+  padding: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+li{
+  display: flex;
+  padding: 70px;
+}
+
+
+
+.main-section p{
+  max-width: 1000px;
+  padding: 20px;
+}
+
+hr{
+  opacity: 0.2;
+}
+
+.removed li{
+  list-style: none;
+}
+
+.hide{
+  display: none;
+}
